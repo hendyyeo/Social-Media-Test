@@ -25,7 +25,7 @@ struct NewPost: View {
                     
                     Text("Cancel")
                         .fontWeight(.bold)
-                        .foregroundColor(Color("blue"))
+                        .foregroundColor(Color(.white))
                 }
                 
                 Spacer(minLength: 0)
@@ -35,9 +35,9 @@ struct NewPost: View {
                     //Only for New Posts....
                     Button(action: {newPostData.picker.toggle()}) {
                         
-                        Image(systemName: "photo_fill")
+                        Image(systemName: "photo")
                             .font(.title)
-                            .foregroundColor(Color("blue"))
+                            .foregroundColor(Color(.gray))
                     }
                 }
                 
@@ -48,7 +48,7 @@ struct NewPost: View {
                         .foregroundColor(.white)
                         .padding(.vertical, 10)
                         .padding(.horizontal, 25)
-                        .background(Color("blue"))
+                        .background(Color(.green))
                         .clipShape(Capsule())
                 }
             }

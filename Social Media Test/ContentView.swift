@@ -14,9 +14,9 @@ struct ContentView: View {
         NavigationView{
             
             VStack {
-                Home()
-                //if status {Home()}
-                //else {Login()}
+                
+                if status {Home()}
+                else {Login()}
             }
             .preferredColorScheme(.dark)
             .navigationBarHidden(true)

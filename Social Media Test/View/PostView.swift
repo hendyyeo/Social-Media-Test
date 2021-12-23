@@ -27,7 +27,7 @@ struct PostView: View {
                     
                     Image(systemName: "square.and.pencil")
                         .font(.title)
-                        .foregroundColor(Color.white)
+                        .foregroundColor(Color.blue)
                 }
             }
             .padding()
